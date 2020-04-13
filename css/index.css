@@ -1,28 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap");
+
+@media (min-width: 600px) {
+    /* header */
+
+    body {
+        max-width: 70%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    header.header,
+    footer.footer {
+        justify-content: space-between;
+        padding: 0 2rem;
+    }
+}
+
 /* header */
 
 body {
-    max-width: 70%;
-    margin: 0 auto;
+    padding: 0 5%;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-    margin-top: 2rem;
     background: url("https://loja.reptecstore.com.br/media/catalog/product/p/c/pc_gamer_background_4.jpg")
-        no-repeat fixed center;
-    padding: 0 2rem;
+        no-repeat center;
+    padding: 0 0.5rem;
     height: 20vh;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.5rem;
+    height: 20vh;
+    background: url("https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA17005_hires.jpg")
+        no-repeat center;
 }
 
 .search-wrapper,
 .subscribe-wrapper,
-.title-wrapper {
+.title-wrapper,
+.copyright,
+.footer-title,
+.github-wrapper {
     align-self: center;
 }
 
 .title,
-.subscribe {
+.subscribe,
+.copyright,
+.footer-title {
     color: seashell;
 }
 
