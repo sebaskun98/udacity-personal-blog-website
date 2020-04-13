@@ -31,11 +31,18 @@
     margin: 2rem 0;
 }
 
+.image-blog {
+    align-self: center;
+    margin-right: 1rem;
+}
+
 .blog-post {
     border: 2px solid;
     padding: 20px;
     background: url("https://png.pngtree.com/thumb_back/fw800/back_pic/00/11/26/5356376b0b393f6.jpg")
         no-repeat center;
+    display: flex;
+    background-size: cover;
 }
 
 .blog-title {
