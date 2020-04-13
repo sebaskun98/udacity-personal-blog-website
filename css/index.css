@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 
 @media (min-width: 600px) {
     /* header */
 
     body {
-        max-width: 70%;
+        max-width: 90%;
         margin: 0 auto;
         padding: 0;
     }
@@ -14,12 +15,17 @@
         justify-content: space-between;
         padding: 0 2rem;
     }
+
+    p.copyright {
+        font-size: 1rem;
+    }
 }
 
 /* header */
 
 body {
-    padding: 0 5%;
+    padding: 0 4%;
+    margin: 0;
 }
 
 .header {
@@ -34,7 +40,7 @@ body {
 .footer {
     display: flex;
     justify-content: space-between;
-    padding: 0 0.5rem;
+    padding: 0 1rem;
     height: 20vh;
     background: url("https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA17005_hires.jpg")
         no-repeat center;
@@ -60,4 +66,14 @@ body {
     background: transparent;
     border: none;
     cursor: pointer;
+}
+
+.footer-title {
+    font-size: 1.5rem;
+    font-family: "Oswald", sans-serif;
+}
+
+.copyright {
+    font-size: 0.75rem;
+    font-family: "Oswald", sans-serif;
 }
