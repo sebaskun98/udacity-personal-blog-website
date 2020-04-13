@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap");
+
+@media (min-width: 600px) {
+    .blog-posts {
+        display: grid;
+        grid-row-gap: 50px;
+        grid-column-gap: 50px;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 2rem;
+    }
+
+    .blog-post {
+        border: 2px solid;
+        padding: 20px;
+    }
+
+    .blog-title:hover {
+        color: hsla(60, 46%, 89%, 1);
+    }
+
+    .blog-link:hover {
+        background-color: rgba(0, 230, 64, 0.5);
+        text-decoration: underline;
+        transform: scale(1.5);
+    }
+}
+
+.blog-posts {
+    display: grid;
+    grid-row-gap: 25px;
+    margin: 2rem 0;
+}
+
+.blog-post {
+    border: 2px solid;
+    padding: 20px;
+    background: url("https://png.pngtree.com/thumb_back/fw800/back_pic/00/11/26/5356376b0b393f6.jpg")
+        no-repeat center;
+}
+
+.blog-title {
+    font-family: "Mukta", sans-serif;
+    margin: 0;
+    font-size: 2rem;
+}
+
+.blog-date {
+    color: hsla(210, 93%, 95%, 1);
+}
+
+.blog-link {
+    padding: 0.5rem;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    background-color: rgba(0, 230, 64, 1);
+}
+
+.blog-category {
+    color: hsla(190, 76%, 87%, 1);
+}
+
+.blog-description {
+    margin-bottom: 2rem;
+}
